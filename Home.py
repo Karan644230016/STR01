@@ -45,7 +45,7 @@ else :
 html_2 = """
 <style>
     body{
-      background-color:teal;
+      background-color: #EEF0E5;
      }
 </style>
 <div style="background-color:#B99470;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
