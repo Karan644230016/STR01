@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import requests
 from streamlit_lottie import st_lottie
 
 def load_lottieurl(url: str):
