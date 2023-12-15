@@ -1,4 +1,16 @@
 import streamlit as st
+import json
+from streamlit_lottie import st_lottie
+
+@st.cache
+def load_image_json(path):
+    """ Load animation and images from json """
+    with open(path, 'r') as j:
+        animation = json.load(j)  # Changed from loads to load
+        return animation
+
+back_image = load_image_json('data/Animation01.json')  # Corrected indentation
+
 
 st.header('Karan Khanthong')
 
@@ -89,6 +101,8 @@ if st.button("ทำนายผล"):
 else :
     st.button("ไม่ทำนายผล")
 
+
+import 
 
 
 
