@@ -17,8 +17,8 @@ with col2:
 html_3 = """
     <style>
         *{
-            background-color : #5F6F52;
-        }
+            background-color: #5F6F52 ;
+         }
     </style>
 """
 
