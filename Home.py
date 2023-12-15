@@ -14,7 +14,13 @@ with col1:
     st.image('./pic/myImg01.jpg')
 with col2:
     st.image('./pic/myIris01.jpg')
-
+html_3 = """
+    <style>
+        *{
+            background-color : #5F6F52;
+        }
+    </style>
+"""
 
 
 html_1 = """
