@@ -46,6 +46,7 @@ html_2 = """
 <style>
     *{
       background-color: #EEF0E5;
+      z-index: -5;
      }
 </style>
 <div style="background-color:#B99470;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
