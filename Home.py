@@ -91,14 +91,14 @@ else :
 
 import matplotlib.pyplot as plt
 import numpy as np
-st.plt.style.use('fivethirtyeight')
+st.style.use('fivethirtyeight')
 slices = [59219, 55466, 47544, 36443, 35917]
 labels = ['Python', 'R', 'Php', 'Javascript', 'Java']
 explode = [0.1,0.1,0,0.1,0]
-st.plt.pie(slices,labels=labels,explode=explode,shadow=True,startangle=90,autopct='%2.2f%%',wedgeprops={'edgecolor':'red'})
-st.plt.title('Program for Datascience')
-st.plt.tight_layout()
-st.plt.show()
+st.pie(slices,labels=labels,explode=explode,shadow=True,startangle=90,autopct='%2.2f%%',wedgeprops={'edgecolor':'red'})
+st.title('Program for Datascience')
+st.tight_layout()
+st.show()
 
 
 
