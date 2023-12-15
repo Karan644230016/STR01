@@ -90,19 +90,7 @@ else :
     st.button("ไม่ทำนายผล")
 
 
-import matplotlib.pyplot as plt
-import numpy as np
 
-plt.style.use('fivethirtyeight')
-slices = [59219, 55466, 47544, 36443, 35917]
-labels = ['Python', 'R', 'Php', 'Javascript', 'Java']
-explode = [0.1, 0.1, 0, 0.1, 0]
-
-fig, ax = plt.subplots()
-ax.pie(slices, labels=labels, explode=explode, shadow=True, startangle=90, autopct='%2.2f%%', wedgeprops={'edgecolor': 'red'})
-ax.set_title('Program for Datascience')
-
-st.pyplot(fig)
 
 
 
