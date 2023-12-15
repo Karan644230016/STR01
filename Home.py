@@ -1,7 +1,5 @@
-import json
-import time
-import requests
 import streamlit as st
+import json
 from streamlit_lottie import st_lottie
 
 def load_lottieurl(url: str):
@@ -22,8 +20,6 @@ with col1:
 with col2:
     st.image('./pic/DS1.jpg')
 st.balloons()
-
-
 
 st.header('Karan Khanthong')
 
