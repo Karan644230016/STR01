@@ -102,7 +102,7 @@ else :
     st.button("ไม่ทำนายผล")
 
 
-import 
+
 
 
 
