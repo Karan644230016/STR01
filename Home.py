@@ -55,7 +55,7 @@ html_3 = """
 <center><h5>การทำนายคลาสดอกไม้</h5></center>
 </div>
 """
-st.markdown(html_2, unsafe_allow_html=True)
+st.markdown(html_3, unsafe_allow_html=True)
 st.markdown("")   
 
 
