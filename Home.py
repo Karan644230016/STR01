@@ -6,10 +6,10 @@ from streamlit_lottie import st_lottie
 def load_image_json(path):
     """ Load animation and images from json """
     with open(path, 'r') as j:
-        animation = json.load(j)  # Changed from loads to load
+        animation = json.load(j)
         return animation
 
-back_image = load_image_json('data/Animation01.json')  # Corrected indentation
+back_image = load_image_json('data/Animation01.json')
 
 
 st.header('Karan Khanthong')
