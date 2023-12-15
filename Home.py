@@ -14,21 +14,13 @@ with col1:
     st.image('./pic/myImg01.jpg')
 with col2:
     st.image('./pic/myIris01.jpg')
+
 html_1 = """
-    <style>
-        *{
-            background-color: #5F6F52 ;
-         }
-    </style>
-"""
-
-
-html_2 = """
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
-st.markdown(html_2, unsafe_allow_html=True)
+st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
 import pandas as pd
@@ -50,12 +42,12 @@ if st.button("show bar chart"):
 else :
     st.button("Not show bar chart") 
 
-html_3 = """
+html_2 = """
 <div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายคลาสดอกไม้</h5></center>
 </div>
 """
-st.markdown(html_3, unsafe_allow_html=True)
+st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")   
 
 
