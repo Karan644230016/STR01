@@ -15,7 +15,15 @@ with col1:
 with col2:
     st.image('./pic/myIris01.jpg')
 
-html_1 = """
+html_1 = """"
+    <style>
+        *{
+        background : red;
+        }
+    </style>
+"""
+
+html_2 = """
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
@@ -42,7 +50,7 @@ if st.button("show bar chart"):
 else :
     st.button("Not show bar chart") 
 
-html_2 = """
+html_3 = """
 <div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายคลาสดอกไม้</h5></center>
 </div>
