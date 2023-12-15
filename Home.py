@@ -43,6 +43,11 @@ else :
     st.button("Not show bar chart") 
 
 html_2 = """
+<style>
+    body{
+      background-color:teal;
+     }
+</style>
 <div style="background-color:#B99470;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายคลาสดอกไม้</h5></center>
 </div>
