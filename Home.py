@@ -44,7 +44,7 @@ else :
 
 html_2 = """
 <style>
-    body{
+    html{
       background-color: #EEF0E5;
      }
 </style>
