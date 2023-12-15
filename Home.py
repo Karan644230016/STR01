@@ -18,15 +18,20 @@ with col2:
 html_1 = """"
     <style>
         *{
-            background-color: red;
+            background-color: #ECF4D6;
+        }
+        h5{
+            background-color:#B99470;
+            padding:15px;
+            border-radius:15px 15px 15px 15px;
+            border:2px solid red;
+            text-align:center;
         }
     </style>
 """
 
 html_2 = """
-<div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<center><h5>สถิติข้อมูลดอกไม้</h5></center>
-</div>
+<h5>สถิติข้อมูลดอกไม้</h5></center>
 """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
@@ -51,9 +56,7 @@ else :
     st.button("Not show bar chart") 
 
 html_3 = """
-<div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<center><h5>การทำนายคลาสดอกไม้</h5></center>
-</div>
+    <h5>การทำนายคลาสดอกไม้</h5></center>
 """
 st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")   
