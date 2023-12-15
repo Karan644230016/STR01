@@ -1,11 +1,6 @@
 import streamlit as st
-import time
-import json
 import requests
-from streamlit_lottie import st_lottie
-import pandas as pd
-from sklearn.neighbors import KNeighborsClassifier
-import numpy as np
+import json
 
 def load_lottieurl(url: str):
     r = requests.get(url)
@@ -13,22 +8,11 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-# Streamlit app starts here
-st.header("การวิเคราะห์ความรู้สึกภาษาไทย")
-st.subheader("Kairung Hengpraprohm")
+lot3="https://lottie.host/9d7858db-0b59-4395-ae0f-b57203577235/vTJKGelBz0.json"
+lottie3 = load_lottieurl(lot3)
+st_lottie(lottie3)
 
-col1, col2 = st.columns(2)
-with col1:
-    st.image('./pic/kairung.jpg')
-    lot3 = "https://app.lottiefiles.com/share/b48d28ba-de1f-4f6b-a3ef-004121fc987d"
-    lottie3 = load_lottieurl(lot3)
-    st_lottie(lottie3)
-with col2:
-    st.image('./pic/iris.jpg')
 st.balloons()
-
-# ... (rest of your Streamlit code)
-
 
 st.header('Karan Khanthong')
 
