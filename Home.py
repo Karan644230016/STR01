@@ -3,8 +3,8 @@ import streamlit as st
 st.header('Karan Khanthong')
 
 st.title('การทดสอบเขียนเว็บด้วย Python')
-st.header('ผศ.ดร.ไก้รุ่ง เฮงพระพรหม')
-st.subheader('สาขาวิชาวิทยาการข้อมูล')
+st.header('นายกรัณฑ์  ขันทอง')
+st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
 st.markdown("----")
 
 col1, col2 = st.columns(2)
@@ -88,3 +88,5 @@ if st.button("ทำนายผล"):
    st.button("ไม่ทำนายผล")
 else :
     st.button("ไม่ทำนายผล")
+
+
