@@ -1,15 +1,4 @@
 import streamlit as st
-import json
-from streamlit_lottie import st_lottie
-
-@st.cache
-def load_image_json(path):
-    """ Load animation and images from json """
-    with open(path, 'r') as j:
-        animation = json.load(j)
-        return animation
-
-back_image = load_image_json('data/Animation01.json')
 
 
 st.header('Karan Khanthong')
